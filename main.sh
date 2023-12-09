@@ -13,7 +13,7 @@ read -p ">>>>" choose
 case $choose in
 
   1)
-    bash Debian/Debain.sh
+    bash Debian/Debian.sh
     a=2
     ;;
 

@@ -1,6 +1,6 @@
 sudo apt install ./Debian/protonvpn.deb
 sudo apt update
-echo "c409c819eed60985273e94e575fd5dfd8dd34baef3764fc7356b0f23e25a372c protonvpn-stable-release_1.0.3_all.deb" | sha256sum --check -
+echo "c409c819eed60985273e94e575fd5dfd8dd34baef3764fc7356b0f23e25a372c ./Debian/protonvpn.deb" | sha256sum --check -
 sudo apt install -y protonvpn-cli 
 clear
 echo "Password is >> 12345@Lover"
